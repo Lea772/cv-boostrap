@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    font-family: "Sora", sans-serif;
+}
+
+.shadow-sm {
+    box-shadow: none !important;
+}
+
+
+
+.creu {
+  font-family: sans-serif;
+  -webkit-text-stroke: 2px rgb(51, 51, 51);
+  color: white;
+}
+
+
+.conpetences {
+  height: 9px;
+  border-radius: 2px;
+  border: 2px solid rgb(51, 51, 51);
+  background-color: rgb(51, 51, 51);
+}
+
+.conpetences-1 {
+  height: 100%;
+  width: 80%;
+  border-radius: 2px;
+  background-color: rgb(202, 91, 91);
+}
+
