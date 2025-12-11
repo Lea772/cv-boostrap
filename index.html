@@ -293,9 +293,20 @@
                         <div class="mb-3">
                             <textarea class="form-control border border-2 border-dark" placeholder="Message" rows="4"></textarea>
                         </div>
+                        <button type="button" class="monBouton btn btn-light border border-2 border-dark p-3" id="liveToastBtn">Envoyer</button>
 
-                        <button type="submit" class="monBouton btn btn-light border border-2 border-dark p-3">Envoyer</button>
-                        <p id="message"></p>
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="toast-header bg-danger">
+                                    <strong class="me-auto text-white">Formulaire</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                                </div>
+                                <div class="toast-body fw-bolder">
+                                    Votre Message n'a pas pu etre envoyé! <br>
+                                    Cette fonctionnalité est encore en cours de developpement
+                                </div>
+                            </div>
+                        </div>
                         <button type="button" class="btn btn-dark fs-3 mx-2"><i class="fab fa-discord"></i></button>
                         <button type="button" class="btn btn-light fs-3 mx-2"><i class="fab fa-linkedin"></i></button>
                         <button type="button" class="btn btn-light fs-3 mx-2"><i class="fab fa-github"></i></button>

@@ -3,6 +3,10 @@ function toggleResumeButton () {
   resumeBtn.classList.toggle('d-none')
 }
 
-document.getElementById("monBouton").addEventListener("click", function() {
-    document.getElementById("message").textContent = "Message affiché !";
+const btn = document.getElementById('liveToastBtn');
+const toastEl = document.getElementById('liveToast');
+
+btn.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastEl);
+    toast.show();
 });
