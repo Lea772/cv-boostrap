@@ -1,5 +1,5 @@
-function toggleResumeButton () {
-  const resumeBtn = document.getElementById('resume-btn')
+function toggleCVButton () {
+  const resumeBtn = document.getElementById('CV-btn')
   resumeBtn.classList.toggle('d-none')
 }
 
